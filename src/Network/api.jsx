@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "http://localhost:8080"
+const BASE_URL = "https://komikku-api.zeronedoo.repl.co"
 
 export const getComic = async () => {
     const response = await axios.get(BASE_URL + "/api/comic/popular/page/1")
