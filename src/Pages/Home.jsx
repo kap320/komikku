@@ -8,7 +8,7 @@ const Home = () => {
     const yourParam = queryParams.get('search');
 
     document.body.style.backgroundColor= "#eef0f2"
-    document.title= "Komikku"
+    document.title= "rizakomiku"
 
     if(yourParam) return <Search />
 
