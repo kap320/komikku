@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "https://zeronewatch-api.vercel.app/"
+const BASE_URL = "https://zeronewatch-api.vercel.app"
 
 export const getComic = async () => {
     const response = await axios.get(BASE_URL + "/api/comic/popular/page/1")
